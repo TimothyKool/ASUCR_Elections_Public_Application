@@ -1,14 +1,11 @@
-# Pipeline
+# ASUCR_Elections_Public_Application
+
+## How to Run
 Run the following lines on terminal
 ```
-// Scan MAX 50x Ballots
+npm install
 
-// Forward to lle018@ucr.edu
-
-// Remind the file to ballot.pdf
-
-// Separate the pdfs into individual JPGs
-pdfimages -png ballot.pdf Ballot_To_Be_Scanned/pages
-
-// Magic
+python3 -m http.server 
 ```
+
+This is a cleansed version of the 2018 ASUCR Election Website as per FERPA privacy act. For specific resources/inquires, please email Patrick at lepatrick714@gmail.com.
